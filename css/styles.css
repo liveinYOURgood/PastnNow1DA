@@ -1,0 +1,639 @@
+
+    
+
+.img-bannerM {
+  
+  display: block;
+  height: 90%;
+  width: 90%;
+
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 40px;
+  margin-bottom: 40px;
+  
+
+
+}
+
+.img-banner {
+
+  display: none;
+  height: 100%;
+  width: 100%;
+}
+
+hr {
+
+  border: solid 5px yellow;
+  width: 100%;
+  margin-left: auto;
+  margin-right: auto;
+
+  margin-top: 80px;
+  margin-bottom: 80px;
+  
+}
+
+
+.picture {
+
+  display: block;
+  height: 80%;
+  width: 80%;
+
+  margin-left: auto;
+  margin-right: auto;
+
+  margin-top: 100px;
+  margin-bottom: 50px;
+
+  border: red 4px solid;
+
+
+
+}
+
+
+.picture_M {
+
+  display: block;
+  height: 80%;
+  width: 80%;
+
+  margin-left: auto;
+  margin-right: auto;
+
+  margin-top: 100px;
+  margin-bottom: 50px;
+
+
+}
+
+.TitleOFLetterblocks {
+  text-align: center;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: 350%;
+  background-color: beige;
+  padding-top: 15px;
+  padding-bottom: 15px;
+
+  margin-bottom: 90px;
+
+  
+}
+
+
+
+body {
+
+  background-color: darkblue;
+}
+
+.bodytext {
+
+  background-color: white;
+
+  margin-top: 40px;
+  margin-left: 40px;
+  margin-right: 40px;
+  margin-bottom: 70px;
+
+  padding-top: 40px;
+  padding-left: 40px;
+  padding-right: 40px;
+  padding-bottom: 40px;
+
+  font-size: 45px;
+  line-height: 65px;
+
+  text-align: center;
+
+
+}
+
+.bodytextIntro {
+  
+  background-color: beige;
+  color: black;
+
+  margin-top: 90px;
+  margin-left: 40px;
+  margin-right: 40px;
+  margin-bottom: 90px;
+
+  padding-top: 40px;
+  padding-left: 40px;
+  padding-right: 40px;
+  padding-bottom: 40px;
+
+  font-size: 45px;
+  line-height: 65px;
+
+  text-align: center;
+
+
+  border: 3px solid darkblue;
+
+
+
+}
+
+
+.MainHeadline {
+
+  text-align: center;
+  margin-top: 40px;
+  font-size: 100px;
+  line-height: 110px;
+
+}
+
+video {
+
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+
+  margin-top: 40px;
+  margin-bottom: 40px;
+
+  padding-top:30px;
+
+  padding-bottom:30px;
+
+
+  height: 90%;
+  width: 90%;
+
+  background-color: black;
+
+
+
+
+
+}
+
+.pro {
+  font-weight: bolder;
+  color: darkblue;
+}
+
+.pro2 {
+  font-weight: bolder;
+  color: red;
+  text-decoration: underline;
+}
+
+.pro3 {
+  font-weight: bolder;
+  color: darksalmon;
+  text-decoration: underline;
+}
+
+.pro4 {
+  font-weight: bolder;
+  color: darkgreen;
+}
+
+
+.pictureHERO {
+
+  display: block;
+  height: 90%;
+  width: 90%;
+  border: 4px red solid;
+
+  margin-left: auto;
+  margin-right: auto;
+  
+  
+
+}
+
+
+
+.video1 {
+
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+
+  margin-top: 40px;
+  margin-bottom: 40px;
+
+  height: 100%;
+  width: 100%;
+
+
+
+
+
+}
+
+.heropic {
+
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+
+  margin-top: 40px;
+  margin-bottom: 40px;
+
+  width: 90%;
+  height: 90%;
+
+  border: 5px red solid;
+  
+
+}
+
+
+  /* Footer Section */
+  
+  .footer2 {
+    padding: 50px;
+    text-align: center;
+    font-size: 38px;
+    color:white;
+    background-color: black;
+    
+    }
+    
+    .footerindex {
+      padding: 50px;
+      text-align: center;
+      font-size: 38px;
+      color:black;
+      background-color: yellow;
+      
+      }
+
+      .footerpicture {
+
+        display: block;
+        height: 80%;
+        width: 80%;
+
+        margin-left: auto;
+        margin-right: auto;
+        margin-bottom: 40px;
+
+
+      }
+  
+
+
+  
+    
+  /* DESKTOP VIEW BELOW */
+
+
+    @media screen and (min-width:1000px) {
+
+
+      .img-bannerM {
+  
+      display: none;    
+    
+      }
+
+      .img-banner {
+    
+        display: block;
+        height: 100%;
+        width: 100%;
+      }
+
+      .picture {
+
+        display: flex;
+        height: 50%;
+        width: 50%;
+        margin-left: auto;
+        margin-right: auto;
+
+        margin-top: 50px;
+        margin-bottom: 100px;
+
+        float: left;
+
+        padding-left: 15px;
+        padding-right: 15px;
+
+        border: black 1px solid;
+
+
+
+      
+      }
+
+
+      .heropic {
+
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+
+        margin-top: 40px;
+        margin-bottom: 90px;
+
+        width: 50%;
+        height: 50%;
+
+        border: 5px red solid;
+
+
+
+      }
+
+
+      .bodytext {
+  
+        background-color: rgb(237, 237, 194);
+        color: black;
+      
+        margin-top: 90px;
+        margin-left: 40px;
+        margin-right: 40px;
+        margin-bottom: 90px;
+      
+        padding-top: 40px;
+        padding-left: 40px;
+        padding-right: 40px;
+        padding-bottom: 40px;
+
+        font-size: 25px;
+        line-height: 40px;
+
+        border-radius: 25px;
+
+        border: 3px solid red;
+      
+      
+      
+      }
+
+      .pictureHERO {
+
+        display: block;
+        height: 20%;
+        width: 20%;
+        border: 4px red solid;
+
+        margin-left: auto;
+        margin-right: auto;
+
+
+
+      }
+
+      .TitleOFLetterblocks {
+        text-align: center;
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+        font-size: 350%;
+        background-color: white;
+        padding-top: 15px;
+        padding-bottom: 15px;
+
+        padding-left: 20px;
+        padding-right: 20px;
+
+        margin-left: 190px;
+        margin-right: 190px;
+
+
+        color: red;
+        border: blue 3px solid;
+
+
+      }
+
+      .bodytextIntro {
+  
+        background-color: white;
+        color: black;
+      
+        margin-top: 90px;
+        margin-left: 40px;
+        margin-right: 40px;
+        margin-bottom: 90px;
+      
+        padding-top: 40px;
+        padding-left: 40px;
+        padding-right: 40px;
+        padding-bottom: 40px;
+
+        font-size: 25px;
+        line-height: 40px;
+
+
+        border: 3px solid darkblue;
+      
+      
+      
+      }
+
+
+      .secondsection {
+
+        display: flex;
+
+        background-color: rgba(255, 255, 255, 0.433);
+
+
+
+      }
+
+      body {
+
+        background-color: beige;
+
+        background-image: url(../images/mtn2.jpg);
+        background-repeat: no-repeat;
+        background-position: center;
+        background-attachment: fixed;
+        background-size: cover;
+
+
+      }
+
+
+    
+
+      .picture_M {
+
+        display: none;
+
+      }
+
+      .picture {
+
+        display: flex;
+        height: 40%;
+        width: 40%;
+
+        margin-top: 50px;
+        margin-bottom: 100px;
+
+
+        padding-left: 15px;
+        padding-right: 15px;
+
+        border: black 1px solid;
+
+        justify-content: space-evenly;
+
+        background-color: white;
+
+        padding: 15px 15px 15px 15px;
+
+      
+      }
+
+      .pictureDB {
+        display: flex;
+        padding-left: 10px;
+        padding-bottom: 10px;
+
+        width: 350%;
+        height: 350%;
+
+        float: left;
+
+        margin-top: 90px;
+
+
+
+
+
+
+
+
+      }
+
+
+      hr {
+
+        border: solid 2px black;
+        width: 100%;
+        margin-left: auto;
+        margin-right: auto;
+
+        margin-top: 80px;
+        margin-bottom: 80px;
+        
+
+
+      }
+
+      .pro {
+        font-weight: bolder;
+        color: darkblue;
+      }
+
+      .pro2 {
+        font-weight: bolder;
+        color: red;
+        text-decoration: underline;
+      }
+
+      .pro3 {
+        font-weight: bolder;
+        color: PINK;
+        text-decoration: underline;
+      }
+
+      .pro4 {
+        font-weight: bolder;
+        color: yellow;
+      }
+      
+      
+  /* Footer Section */
+  
+  .footer2 {
+    padding: 50px;
+    text-align: center;
+    font-size: 38px;
+    color:white;
+    background-color: black;
+    
+    }
+    
+    .footerindex {
+      padding: 50px;
+      text-align: center;
+      font-size: 38px;
+      color:black;
+      background-color: black;
+      
+      }
+
+      .footertext {
+
+        color: white;
+
+      }
+
+      .btn2 {
+
+        color: black;
+        background-color: pink;
+        padding-top: 10px;
+        padding-left: 10px;
+        padding-right: 10px;
+        padding-bottom: 10px;
+
+      }
+
+      .btn2:hover {
+
+        background-color: aqua;
+        color: black;
+
+      }
+
+      .footerpicture {
+
+        display: block;
+        height: 50%;
+        width: 50%;
+
+        margin-left: auto;
+        margin-right: auto;
+        margin-bottom: 40px;
+
+        border-radius: 25px;
+
+        
+
+      }
+
+  
+    
+
+
+
+    }
+
+  
+  
+  
+
+
+
+
+
+
+
+
+
+
+
+
+ 
+
+
+
+
